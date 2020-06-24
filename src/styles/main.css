@@ -1,0 +1,29 @@
+
+.container {
+    padding: 16px;
+    background-color: rgb(239, 243, 239);
+}
+.full-width {
+    width: 100%;
+}
+.card-c{
+    box-shadow: 3px 3px 4px black;
+    transition: all ease 0.30s;
+}
+.card-c:hover{
+    transform: translateX(2px);  
+}
+.status{
+    background-color: rgb(152, 185, 161);
+    height: 60px;
+    border-radius: 4px;
+}
+.status-teks{
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and  (max-width: 600px){
+    .status-teks{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
